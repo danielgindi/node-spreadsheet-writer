@@ -1,0 +1,16 @@
+{
+  "name": "spreadsheet-writer",
+  "version": "0.1.0",
+  "author": {
+    "name": "Daniel Cohen Gindi",
+    "email": "danielgindi@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielgindi/node-spreadsheet-writer.git"
+  },
+  "dependencies": {
+    "html-entities": "1.*",
+    "color": "0.10.*"
+  }
+}
