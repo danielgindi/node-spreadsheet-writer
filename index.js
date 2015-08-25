@@ -11,12 +11,12 @@ module.exports = {
      * @public
      * @type {XmlSpreadsheetWriter}
      * */
-    XmlSpreadsheetWriter: /** @type {XmlSpreadsheetWriter} */ require('./xml/writer'),
+    XmlSpreadsheetWriter: /** @type {XmlSpreadsheetWriter} */ require('./xml'),
 
     /**
      * @public
      * @type {CsvSpreadsheetWriter}
      * */
-    CsvSpreadsheetWriter: /** @type {CsvSpreadsheetWriter} */ require('./csv/writer')
+    CsvSpreadsheetWriter: /** @type {CsvSpreadsheetWriter} */ require('./csv')
 
 };
