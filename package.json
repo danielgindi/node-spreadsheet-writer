@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/danielgindi/node-spreadsheet-writer.git"
+    "url": "https://github.com/danielgindi/node-spreadsheet-writer"
   },
   "dependencies": {
     "html-entities": "1.*",
