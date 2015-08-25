@@ -1,4 +1,4 @@
-var inherits = require('util').inherits;
+var util = require('util');
 
 var prepareString = function (value) {
     return value
@@ -23,7 +23,7 @@ var CsvSpreadsheetWriter = function () {
     this._init.apply(this, arguments);
 };
 
-inherits(CsvSpreadsheetWriter, BaseSpreadsheetWriter);
+util.inherits(CsvSpreadsheetWriter, BaseSpreadsheetWriter);
 
 /**
  * @constructs

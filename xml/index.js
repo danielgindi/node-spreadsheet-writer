@@ -1,6 +1,6 @@
 var Stream = require('stream');
 var Color = require('color');
-var inherits = require('util').inherits;
+var util = require('util');
 
 var prepareString = function (value) {
     return value
@@ -46,7 +46,7 @@ var XmlSpreadsheetWriter = function () {
     this._init.apply(this, arguments);
 };
 
-inherits(XmlSpreadsheetWriter, BaseSpreadsheetWriter);
+util.inherits(XmlSpreadsheetWriter, BaseSpreadsheetWriter);
 
 /**
  * @constructs

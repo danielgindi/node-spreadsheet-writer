@@ -1,5 +1,5 @@
 
-var inherits = require('util').inherits;
+var util = require('util');
 
 var unimplementedFunction = function () {
     throw new Error('This function is not implemented');
@@ -12,7 +12,7 @@ var unimplementedFunction = function () {
  * */
 var BaseSpreadsheetWriter = function () { };
 
-inherits(BaseSpreadsheetWriter, require('events').EventEmitter);
+util.inherits(BaseSpreadsheetWriter, require('events').EventEmitter);
 
 /**
  * Sets the output encoding. Default is utf8.
