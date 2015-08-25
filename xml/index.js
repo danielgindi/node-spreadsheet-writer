@@ -908,6 +908,6 @@ XmlSpreadsheetWriter.prototype.writeStyle = function (styleIndex) {
 
 /**
  * @module
- * @type {XmlSpreadsheetWriter}
+ * @type {function(new:XmlSpreadsheetWriter, *)}
  * */
 module.exports = XmlSpreadsheetWriter;

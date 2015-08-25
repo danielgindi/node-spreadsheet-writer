@@ -148,6 +148,6 @@ BaseSpreadsheetWriter.prototype.addRichTextCell = unimplementedFunction;
 
 /**
  * @module
- * @type {BaseSpreadsheetWriter}
+ * @type {function(new:BaseSpreadsheetWriter, *)}
  * */
 module.exports = BaseSpreadsheetWriter;

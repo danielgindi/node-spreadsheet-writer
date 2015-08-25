@@ -9,14 +9,14 @@ module.exports = {
 
     /**
      * @public
-     * @type {XmlSpreadsheetWriter}
+     * @type {function(new:XmlSpreadsheetWriter, *)}
      * */
-    XmlSpreadsheetWriter: /** @type {XmlSpreadsheetWriter} */ require('./xml'),
+    XmlSpreadsheetWriter: require('./xml'),
 
     /**
      * @public
-     * @type {CsvSpreadsheetWriter}
+     * @type {function(new:CsvSpreadsheetWriter, *)}
      * */
-    CsvSpreadsheetWriter: /** @type {CsvSpreadsheetWriter} */ require('./csv')
+    CsvSpreadsheetWriter: require('./csv')
 
 };

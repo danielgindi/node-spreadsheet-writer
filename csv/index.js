@@ -324,6 +324,6 @@ CsvSpreadsheetWriter.prototype._endRow = function () {
 
 /**
  * @module
- * @type {CsvSpreadsheetWriter}
+ * @type {function(new:CsvSpreadsheetWriter, *)}
  * */
 module.exports = CsvSpreadsheetWriter;

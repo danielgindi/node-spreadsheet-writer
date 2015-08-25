@@ -3,120 +3,120 @@
  * @enum {string}
  */
 var VerticalAlignment = {
-    /** @const */ Automatic: 'Automatic',
-    /** @const */ Top: 'Top',
-    /** @const */ Center: 'Center',
-    /** @const */ Bottom: 'Bottom',
-    /** @const */ Justify: 'Justify',
-    /** @const */ Distributed: 'Distributed',
-    /** @const */ JustifyDistributed: 'JustifyDistributed'
+    Automatic: 'Automatic',
+    Top: 'Top',
+    Center: 'Center',
+    Bottom: 'Bottom',
+    Justify: 'Justify',
+    Distributed: 'Distributed',
+    JustifyDistributed: 'JustifyDistributed'
 };
 
 /**
  * @enum {string}
  */
 var BorderLineStyle = {
-    /** @const */ None: 'None',
-    /** @const */ Continuous: 'Continuous',
-    /** @const */ Dash: 'Dash',
-    /** @const */ Dot: 'Dot',
-    /** @const */ DashDot: 'DashDot',
-    /** @const */ DashDotDot: 'DashDotDot',
-    /** @const */ SlantDashDot: 'SlantDashDot',
-    /** @const */ Double: 'Double'
+    None: 'None',
+    Continuous: 'Continuous',
+    Dash: 'Dash',
+    Dot: 'Dot',
+    DashDot: 'DashDot',
+    DashDotDot: 'DashDotDot',
+    SlantDashDot: 'SlantDashDot',
+    Double: 'Double'
 };
 
 /**
  * @enum {string}
  */
 var BorderPosition = {
-    /** @const */ Left: 'Left',
-    /** @const */ Top: 'Top',
-    /** @const */ Right: 'Right',
-    /** @const */ Bottom: 'Bottom',
-    /** @const */ DiagonalLeft: 'DiagonalLeft',
-    /** @const */ DiagonalRight: 'DiagonalRight'
+    Left: 'Left',
+    Top: 'Top',
+    Right: 'Right',
+    Bottom: 'Bottom',
+    DiagonalLeft: 'DiagonalLeft',
+    DiagonalRight: 'DiagonalRight'
 };
 
 /**
  * @enum {string}
  */
 var FontFamily = {
-    /** @const */ Automatic: 'Automatic',
-    /** @const */ Decorative: 'Decorative',
-    /** @const */ Modern: 'Modern',
-    /** @const */ Roman: 'Roman',
-    /** @const */ Script: 'Script',
-    /** @const */ Swiss: 'Swiss'
+    Automatic: 'Automatic',
+    Decorative: 'Decorative',
+    Modern: 'Modern',
+    Roman: 'Roman',
+    Script: 'Script',
+    Swiss: 'Swiss'
 };
 
 /**
  * @enum {string}
  */
 var FontUnderline = {
-    /** @const */ None: 'None',
-    /** @const */ Single: 'Single',
-    /** @const */ Double: 'Double',
-    /** @const */ SingleAccounting: 'SingleAccounting',
-    /** @const */ DoubleAccounting: 'DoubleAccounting'
+    None: 'None',
+    Single: 'Single',
+    Double: 'Double',
+    SingleAccounting: 'SingleAccounting',
+    DoubleAccounting: 'DoubleAccounting'
 };
 
 /**
  * @enum {string}
  */
 var FontVerticalAlign = {
-    /** @const */ None: 'None',
-    /** @const */ Subscript: 'Subscript',
-    /** @const */ Superscript: 'Superscript'
+    None: 'None',
+    Subscript: 'Subscript',
+    Superscript: 'Superscript'
 };
 
 /**
  * @enum {string}
  */
 var HorizontalAlignment = {
-    /** @const */ Automatic: 'Automatic',
-    /** @const */ Left: 'Left',
-    /** @const */ Center: 'Center',
-    /** @const */ Right: 'Right',
-    /** @const */ Fill: 'Fill',
-    /** @const */ Justify: 'Justify',
-    /** @const */ CenterAcrossSelection: 'CenterAcrossSelection',
-    /** @const */ Distributed: 'Distributed',
-    /** @const */ JustifyDistributed: 'JustifyDistributed'
+    Automatic: 'Automatic',
+    Left: 'Left',
+    Center: 'Center',
+    Right: 'Right',
+    Fill: 'Fill',
+    Justify: 'Justify',
+    CenterAcrossSelection: 'CenterAcrossSelection',
+    Distributed: 'Distributed',
+    JustifyDistributed: 'JustifyDistributed'
 };
 
 /**
  * @enum {string}
  */
 var HorizontalReadingOrder = {
-    /** @const */ Context: 'Context',
-    /** @const */ RightToLeft: 'RightToLeft',
-    /** @const */ LeftToRight: 'LeftToRight'
+    Context: 'Context',
+    RightToLeft: 'RightToLeft',
+    LeftToRight: 'LeftToRight'
 };
 
 /**
  * @enum {string}
  */
 var InteriorPattern = {
-    /** @const */ None: 'None',
-    /** @const */ Solid: 'Solid',
-    /** @const */ Gray75: 'Gray75',
-    /** @const */ Gray50: 'Gray50',
-    /** @const */ Gray25: 'Gray25',
-    /** @const */ Gray125: 'Gray125',
-    /** @const */ Gray0625: 'Gray0625',
-    /** @const */ HorzStripe: 'HorzStripe',
-    /** @const */ VertStripe: 'VertStripe',
-    /** @const */ ReverseDiagStripe: 'ReverseDiagStripe',
-    /** @const */ DiagStripe: 'DiagStripe',
-    /** @const */ DiagCross: 'DiagCross',
-    /** @const */ ThickDiagCross: 'ThickDiagCross',
-    /** @const */ ThinHorzStripe: 'ThinHorzStripe',
-    /** @const */ ThinVertStripe: 'ThinVertStripe',
-    /** @const */ ThinReverseDiagStripe: 'ThinReverseDiagStripe',
-    /** @const */ ThinDiagStripe: 'ThinDiagStripe',
-    /** @const */ ThinHorzCross: 'ThinHorzCross',
-    /** @const */ ThinDiagCross: 'ThinDiagCross'
+    None: 'None',
+    Solid: 'Solid',
+    Gray75: 'Gray75',
+    Gray50: 'Gray50',
+    Gray25: 'Gray25',
+    Gray125: 'Gray125',
+    Gray0625: 'Gray0625',
+    HorzStripe: 'HorzStripe',
+    VertStripe: 'VertStripe',
+    ReverseDiagStripe: 'ReverseDiagStripe',
+    DiagStripe: 'DiagStripe',
+    DiagCross: 'DiagCross',
+    ThickDiagCross: 'ThickDiagCross',
+    ThinHorzStripe: 'ThinHorzStripe',
+    ThinVertStripe: 'ThinVertStripe',
+    ThinReverseDiagStripe: 'ThinReverseDiagStripe',
+    ThinDiagStripe: 'ThinDiagStripe',
+    ThinHorzCross: 'ThinHorzCross',
+    ThinDiagCross: 'ThinDiagCross'
 };
 
 /**
@@ -205,16 +205,13 @@ var NumberFormats = {
  * @enum {string}
  */
 var CellType = {
-    /** @const */ Number: 'Number',
-    /** @const */ DateTime: 'DateTime',
-    /** @const */ Boolean: 'Boolean',
-    /** @const */ String: 'String',
-    /** @const */ Error: 'Error'
+    Number: 'Number',
+    DateTime: 'DateTime',
+    Boolean: 'Boolean',
+    String: 'String',
+    Error: 'Error'
 };
 
-/**
- * @enum {string}
- */
 var CellFormulaPlaceholder = {
     /** @const */ Null: '#NULL!',
     /** @const */ DivisionByZero: '#DIV/0!',
