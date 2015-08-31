@@ -635,12 +635,12 @@ XmlSpreadsheetWriter.prototype.writeStyle = function (styleIndex) {
     }
 
     if (style.borders && style.borders.length > 0) {
-        this._out.write('    <ss:Borders>'); // Opening tag
+        this._out.write('   <ss:Borders>\n'); // Opening tag
 
         for (var i = 0; i < style.borders.length; i++) {
             var border = style.borders[i];
 
-            this._out.write('<ss:Border'); // Opening tag
+            this._out.write('    <ss:Border'); // Opening tag
 
             var position = null;
             switch (border.position) {
@@ -711,7 +711,7 @@ XmlSpreadsheetWriter.prototype.writeStyle = function (styleIndex) {
             this._out.write('/>\n'); // Closing tag
         }
 
-        this._out.write('</ss:Borders>\n'); // Closing tag
+        this._out.write('   </ss:Borders>\n'); // Closing tag
     }
 
     if (style.interior) {
