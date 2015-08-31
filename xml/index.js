@@ -144,8 +144,8 @@ XmlSpreadsheetWriter.prototype.addStyle = function (style) {
  * @returns {XmlSpreadsheetWriter} <code>this</code>
  */
 XmlSpreadsheetWriter.prototype.addColumn = function (width, autoFitWidth) {
-    if (!this._shouldBeginWorksheet) {
-        throw new Error('Cannot add a column at this phase. Columns must be added after a call to newWorksheet(), and before adding any rows.');
+    if (!this._shouldBeginWorksheet && this._shouldEndWorksheet) {
+        throw new Error('Cannot add a column at this phase. Columns must be added before adding any rows.');
     }
     if (typeof width === 'boolean') {
         autoFitWidth = /** @type boolean */width;
