@@ -125,7 +125,7 @@ var Utils = {
         
         return function (format) {
 
-            return format.replace(formatMatcher, replacer);
+            return format.replace(formatMatcher, replacer) + ';@';
 
         };
 
