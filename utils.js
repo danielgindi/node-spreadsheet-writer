@@ -94,8 +94,8 @@ var Utils = {
             'hh': 'Hh',
             'H': 'h', // 12/24 hours automatic depending on existence of AM/PM
             'HH': 'Hh',
-            'm': 'N',
-            'mm': 'Nn',
+            'm': 'm', // Specs say "N" but it's "m". Excel detects an "h" specified before it
+            'mm': 'mm', // Specs say "Nn" but it's "mm". Excel detects an "h" specified before it
             's': 'S',
             'ss': 'Ss',
             'l': '"000"', // No milliseconds in Excel
