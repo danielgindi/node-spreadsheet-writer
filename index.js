@@ -7,6 +7,9 @@ module.exports = {
     /** @public */
     Types: require('./types'),
 
+    /** @public */
+    Utils: require('./utils'),
+
     /**
      * @public
      * @type {function(new:XmlSpreadsheetWriter, *)}
