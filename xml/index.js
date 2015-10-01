@@ -220,7 +220,7 @@ XmlSpreadsheetWriter.prototype._writeStyles = function () {
             '  </Style>\n');
 
         for (var i = 0; i < this._styles.length; i++) {
-            this.writeStyle(i);
+            this._writeStyle(i);
         }
 
         this._out.write(' </Styles>\n');
@@ -509,7 +509,7 @@ XmlSpreadsheetWriter.prototype._endRow = function () {
  * @this {XmlSpreadsheetWriter}
  * @returns {XmlSpreadsheetWriter} <code>this</code>
  */
-XmlSpreadsheetWriter.prototype.writeStyle = function (styleIndex) {
+XmlSpreadsheetWriter.prototype._writeStyle = function (styleIndex) {
     var style = this._styles[styleIndex];
 
     this._out.write('  <Style ss:ID="s' + (styleIndex + 21) + '"');
