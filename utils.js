@@ -113,7 +113,7 @@ var Utils = {
         };
         
         var replacer = function (token) {
-            console.log(token)
+
             return flagMap.hasOwnProperty(token) ?
                 flagMap[token] :
                 ('"' +
