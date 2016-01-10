@@ -1,4 +1,5 @@
-# node-spreadsheet-writer
+node-spreadsheet-writer
+======================
 
 [![npm Version](https://badge.fury.io/js/spreadsheet-writer.png)](https://npmjs.org/package/spreadsheet-writer)
 
